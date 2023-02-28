@@ -5,51 +5,33 @@
 }
 #root {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  background-color: #222226;
+
 }
 /* ---------------------------------MAINMM---------------------------------- */
 .app-wrapper{
-  width: 100%;
-  height: 100vh;
+  
+  max-width: 100%;
+  min-height: 100vh;
 
   display: grid;
 
   grid-template-areas: 
   "header header"
-  "nav content";
+  "mw mw";
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  /* grid-gap: 10px; */
-  background-color: aquamarine;
-}
-.header{
-  grid-area: header;
-  
-
-  background-color: rgb(61, 117, 61);
-}
-.header_logo{
-  width: 50px;
-
-  margin: 5px;
-  border-radius: 50px;
-}
-.navigation-sideBar{
-  grid-area: nav;
-  background-color: navajowhite;
-}
-.content{
-  grid-area: content;
-  background-color: skyblue;
 
   position: relative;
-}
-.content-img{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 
-  width: 90%;
-  height: 100px;
+}
+
+.main-wrapp{
+  grid-area: mw;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }

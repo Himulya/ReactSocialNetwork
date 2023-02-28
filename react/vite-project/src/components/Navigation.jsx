@@ -1,23 +1,19 @@
 import { useState } from 'react';
+import Style from'./componentsStyle/Navigation.module.css';
 
 const Nav = ()=>{
     return(
-        <nav className='navigation-sideBar'>
-          <div>
-            Profile
+        <nav className={Style.nav}>
+          <div className={Style.menu}>
+              <a href='#' className={Style.item}>Profile</a>
+              <a href='#' className={Style.item}>Messages</a>
+              <a href='#' className={Style.item}>News</a>
+              <a href='#' className={Style.item}>Music</a>
           </div>
           <div>
-            Messages
+            <a href='#' className={Style.item}>Settings</a>
           </div>
-          <div>
-            News
-          </div>
-          <div>
-            Music
-          </div>
-          <div>
-            Settings
-          </div>
+              
         </nav>
     )
 }

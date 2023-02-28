@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    grid-area: header;
+    background-color: #333336;
+    opacity: 60;
+    position: sticky;
+    top: 0;
+    left: 0;
+   z-index: 100;
+  }
+.logo{
+    margin-left: 50px;
+    font-weight: bolder;
+    color: rgb(214, 92, 245);
+}

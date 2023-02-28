@@ -1,0 +1,122 @@
+.content{
+    min-width: 1000px;
+    min-height: 100vh;
+
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #333336;
+  
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  .bannerContainer{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+  }
+  .mainInfo{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+    .mainText{
+      margin-right: 50px;
+    }
+      .name{
+        margin-bottom: 20px;
+        font-size: 2.1rem;
+      }
+      .text{
+        font-weight: 600;
+      }
+      .birthday::before{
+        content: 'Date of Birth:';
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      .city::before{
+        content: 'City:';
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      .education::before{
+        content: 'Education:';
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      .webSite::before{
+        content: 'Web Site:';
+        font-weight: bold;
+        margin-right: 10px;
+      }
+  .headingContainer{
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+  }
+   .heading{
+    font-size: 2rem;
+  }
+  .textInputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+   .textInput{
+    margin-top: 50px;
+    width: 850px;
+    height: 185px;
+    border-radius: 10px;
+    border-color: #0d0d0e;
+    background-color: #46464b;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 20px;
+    resize: none;
+   }
+   .textInput::placeholder{
+    font-weight: bold;
+    font-size: 1.5rem;
+   }
+   .btnContainer{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+   }
+   .btn{
+    width: 100px;
+    height: 50px;
+
+    margin-top: 10px;
+    color: #dfdfdf;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    background-color: none;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+   }
+   .btn:hover{
+      color:#b9b9b9;
+      background-color: #272626;
+      transition: all 0.3s;
+   }
+
+  .postHeadingContainer{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
