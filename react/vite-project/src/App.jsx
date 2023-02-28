@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Header from './components/Header'
-import Nav from './components/Navigation'
-import Content from './components/Content'
+import Header from './components/Header/Header'
+import Nav from './components/Navigation/Navigation'
+import Content from './components/Content/Content'
 import './App.css'
 
 const App = () => {

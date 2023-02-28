@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Style from'./componentsStyle/Navigation.module.css';
+import Style from'./Navigation.module.css';
 
 const Nav = ()=>{
     return(

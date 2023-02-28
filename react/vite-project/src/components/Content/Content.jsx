@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Style from './componentsStyle/Content.module.css'
+import Style from './Content.module.css'
 
 const Content = ()=>{
     return(
