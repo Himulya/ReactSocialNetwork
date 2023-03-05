@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import Style from './Content.module.css'
+import Style from './Profile.module.css'
+import Post from './Posts/Post';
 
-const Content = ()=>{
+const Profile = ()=>{
     return(
         <div className={Style.content}>
             <div className={Style.bannerContainer}>
@@ -28,8 +29,9 @@ const Content = ()=>{
             <div className={Style.postHeadingContainer}>
               <h1 className={Style.postHeading}>My posts</h1>
             </div>
+            <Post/>
         </div> 
     )
 }
 
-export default Content
+export default Profile
