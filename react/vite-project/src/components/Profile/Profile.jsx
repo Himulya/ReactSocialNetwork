@@ -29,7 +29,8 @@ const Profile = ()=>{
             <div className={Style.postHeadingContainer}>
               <h1 className={Style.postHeading}>My posts</h1>
             </div>
-            <Post/>
+            <Post message = "Nihao"/>
+            <Post message = "How are you?"/>
         </div> 
     )
 }
